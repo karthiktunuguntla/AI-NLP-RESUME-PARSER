@@ -3,6 +3,12 @@ import streamlit as st
 import pandas as pd
 import base64,random
 import time,datetime
+
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+
 from pyresparser import ResumeParser
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
