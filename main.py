@@ -102,9 +102,9 @@ def run():
     st.sidebar.markdown("# Choose User")
     activities = ["Normal User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    img = Image.open('./Logo/logo.png')
-    img = img.resize((250,250))
-    st.image(img)
+    #img = Image.open('./Logo/logo.png')
+    #img = img.resize((250,250))
+    #st.image(img)
 
 
 
