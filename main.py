@@ -1,6 +1,10 @@
 import sqlite3
 import streamlit as st
 import pandas as pd
+import os
+
+os.makedirs("Uploaded_Resumes", exist_ok=True)
+os.makedirs("temp", exist_ok=True)
 import base64,random
 import time,datetime
 
